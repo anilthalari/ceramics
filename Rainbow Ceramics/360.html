@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+ function getimg()
+{
+setInterval(function imgfun(),100);
+}
+function imgfun()
+{
+var imgvalu=document.getElementById("imgrange").value;
+document.getElementById("imgg").src="https://www.google.com/maps/uv?hl=en&pb=!1s0x3a35f192303aef0b%3A0x6f53cab95c118a1f!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOyCIpMw-2VfIb0a_1mZhY89EIGOJ9DXAh7zkPx%3Dw131-h176-k-no!5sRainbow%20ceramics%2CQutone%20Tiles%2C%20Hafele%2C%20Glocera%20exclusive%20Gallery%20Vijayawada%20-%20Google%20Search!15sCAQ&imagekey=!1e10!2sAF1QipOyCIpMw-2VfIb0a_1mZhY89EIGOJ9DXAh7zkPx&sa=X&ved=2ahUKEwiSh4jBvPfiAhXRXSsKHVBaDrAQoiowDnoECAkQBg";
+}
+</script>
+</head>
+<body>
+<center>
+<img src="" width="400" height="400" style="border:2px solid black; border-radius: 20px"/>
+<br>
+<input type="range" value="1" min="1" max="39" id="imgrange">
+</center>
+</body>
+</html>
